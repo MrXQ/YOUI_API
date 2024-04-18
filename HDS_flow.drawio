@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T07:29:24.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="22.1.16" etag="bQEgldPfAP68zfw-msuV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T07:38:16.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="d1HtFvmbFt4je8nzV8bH" version="22.1.16" type="github">
   <diagram name="Page-1" id="mRq67Squ5-0Opvw__wHU">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-1" value="Data Collection" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="170" width="230" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-6" value="" style="group" vertex="1" connectable="0" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry x="30.5" y="60" width="70" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-4" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Non_Azure_Machine.svg;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-6">
+          <mxGeometry x="19.5" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-5" value="Machine IPC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-6">
+          <mxGeometry y="50" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-9" value="" style="group" vertex="1" connectable="0" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry x="133.5" y="50" width="71" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_plc;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-9">
+          <mxGeometry x="6.5" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-8" value="Machine PLC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-9">
+          <mxGeometry y="58" width="71" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="145" as="sourcePoint" />
+            <mxPoint x="65" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-13" value="" style="group" vertex="1" connectable="0" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry x="23.75" y="200" width="83.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-10" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-13">
+          <mxGeometry x="11.75" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-12" value="Files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-13">
+          <mxGeometry y="60" width="83.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-14" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry x="91" y="396" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-15" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry x="81" y="306" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="114.5" y="365" as="sourcePoint" />
+            <mxPoint x="114.5" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70.5" y="286" as="sourcePoint" />
+            <mxPoint x="100.5" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ihhVtPH77ZfG2zRs3wzk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="149" y="339.5" as="sourcePoint" />
+            <mxPoint x="249" y="339.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-3" value="RocketMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="60" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
