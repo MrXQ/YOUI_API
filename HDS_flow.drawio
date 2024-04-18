@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T07:57:12.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="j_vQvEaGvJGP5JMT-Q2S" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T07:57:45.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="rB1UT_OAMPDAfM5F8lxK" version="22.1.16" type="github">
   <diagram name="Page-1" id="mRq67Squ5-0Opvw__wHU">
     <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
         <mxCell id="ihhVtPH77ZfG2zRs3wzk-32" value="Database" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="170" width="200" height="258" as="geometry" />
         </mxCell>
-        <mxCell id="ihhVtPH77ZfG2zRs3wzk-36" value="TIDB(Distributed Database)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-32">
+        <mxCell id="ihhVtPH77ZfG2zRs3wzk-36" value="TIDB(Distributed Database) Relational DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-32">
           <mxGeometry x="10" y="193" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ihhVtPH77ZfG2zRs3wzk-37" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="ihhVtPH77ZfG2zRs3wzk-32">
